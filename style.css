@@ -1,0 +1,46 @@
+#kalendar {
+    border: 4px solid darkblue ;
+    border-collapse: collapse;
+
+}
+
+#kalendar thead tr th {
+    font-size: 10pt;
+    background-color: #57a;
+    color: #ffffff;
+}
+
+#kalendar tbody tr td{
+    border: 2px dashed #57a;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 9pt;
+    text-align: right;
+    vertical-align: top;
+}
+
+#kalendar td:nth-child(7){
+    background-color: rosybrown;
+}
+
+#napred{
+    background-color: #57a;
+    border:1px solid #ffffff;
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+}
+#nazad{
+    background-color: #57a;
+    border:1px solid #ffffff;
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#dani{
+    background-color: rgb(251, 251, 251);
+    font-weight: bold;
+}
+
